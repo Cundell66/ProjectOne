@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 1156669381818603563}
   - component: {fileID: 877328990496640899}
   - component: {fileID: 3058762141405855317}
+  - component: {fileID: 8132383174861036707}
   - component: {fileID: 2543330805099670774}
   - component: {fileID: 9206949045157081778}
   - component: {fileID: 2731276038526511529}
@@ -214,7 +215,7 @@ Transform:
   - {fileID: 7810342014101251773}
   - {fileID: 1739909173848243972}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &877328990496640899
 MeshFilter:
@@ -241,6 +242,18 @@ MonoBehaviour:
   successSound: {fileID: 8300000, guid: 59b322180774e8947a889a839a24a3c5, type: 3}
   crashParticles: {fileID: 2707388140419698217}
   successParticles: {fileID: 1074134465149895424}
+--- !u!114 &8132383174861036707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2733708051295273382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5fcf7e3cf458142b04e68c96620065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2543330805099670774
 MonoBehaviour:
   m_ObjectHideFlags: 0
